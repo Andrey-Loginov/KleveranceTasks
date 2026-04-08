@@ -1,0 +1,40 @@
+10.03.2025 15:14:49.523 INFORMATION Версия программы: '3.4.0.48729'
+2025-03-10 15:14:51.5882| INFO|11|MobileComputer.GetDeviceId| Код устройства: '@MINDEO-M40-D-410244015546'
+11.03.2025 09:00:00.000 WARNING Low disk space
+2025-03-11 09:00:01.1234| ERROR|22|Disk.Check| Disk failure detected
+12.03.2025 10:10:10.100 DEBUG Debugging mode enabled
+2025-03-12 10:10:10.1000| WARN|33|System.Init| Initialization warning
+13.03.2025 11:11:11.111 INFORMATION Message with multiple words and spaces
+2025-03-13 11:11:11.1111| INFO|44|Auth.Login| User logged in successfully
+14.03.2025 12:12:12.222 ERROR Something went wrong!
+2025-03-14 12:12:12.2222| DEBUG|55|Worker.Run| Running background job
+14-03-2025 12:12:12.222 ERROR Wrong date format
+2025/03/14 12:12:12.2222| INFO|66|Test.Method| Wrong date separator
+15.03.2025 13:13:13 INFORMATION Missing milliseconds
+2025-03-15 13:13:13| INFO|77|Test.Method| Missing milliseconds
+Random text not a log
+
+16.03.2025 14:14:14.444 UNKNOWN Unknown level
+2025-03-16 14:14:14.4444| INFO||Method| Missing number field
+17.03.2025 15:15:15.555 INFORMATION
+2025-03-17 15:15:15.5555| INFO|88|| Missing method
+18.03.2025 16:16:16.666 INFORMATION Message with numbers 12345
+2025-03-18 16:16:16.6666| WARN|99|Net.Connect| Connection slow
+19.03.2025 17:17:17.777 WARNING Another warning message
+2025-03-19 17:17:17.7777| ERROR|101|DB.Query| Query failed
+20.03.2025 18:18:18.888 DEBUG Debug info here
+2025-03-20 18:18:18.8888| INFO|202|Cache.Get| Cache hit
+21.03.2025 19:19:19.999 INFORMATION    Extra spaces before message
+2025-03-21 19:19:19.9999| INFO|303|Service.Do|    Leading spaces in message
+22.03.2025 20:20:20.000 INFORMATION Special chars !@#$%^&*()
+2025-03-22 20:20:20.0000| INFO|404|API.Call| JSON: {'key':'value'}
+23.03.2025 21:21:21.111 ERROR Multiline-like message \n test
+2025-03-23 21:21:21.1111| DEBUG|505|Thread.Run| Thread started
+24.03.25 22:22:22.222 INFORMATION Short year
+2025-03-24T22:22:22.2222| INFO|606|Test.Method| Wrong separator T
+25.03.2025 23:23:23.333
+2025-03-25 23:23:23.3333| |707|Test.Method| Missing level
+26.03.2025 24:00:00.000 INFORMATION Invalid hour
+2025-03-26 23:60:00.0000| INFO|808|Test.Method| Invalid minute
+27.03.2025 08:08:08.888 INFORMATION Final valid message
+2025-03-27 08:08:08.8888| INFO|909|Final.Method| Final valid message
